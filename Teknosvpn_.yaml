@@ -1,14 +1,14 @@
 proxies:
-  - name: teknosvpn
-    server: quiz.int.vidio.com
-    port: 443
-    type: trojan
-    password: 050d8a97-70b3-49a5-b919-7ac9b61621a9
-    skip-cert-verify: true
-    sni: msa.bhmku.net
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: msa.bhmku.net
-    udp: true
+- name: Teknos WS
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: teknoseo25
+  skip-cert-verify: true
+  sni: support.zoom.us.tro-sgdo002.tunggure.buzz
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: support.zoom.us.tro-sgdo002.tunggure.buzz
+  udp: true
